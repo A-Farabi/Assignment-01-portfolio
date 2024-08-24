@@ -338,3 +338,21 @@ font-style: normal;
 font-weight: 800;
 line-height: 116px; /* 116% */
 }
+
+/* about me section starts here */
+.about-title h1{
+  color: var(--Too-Light-Yellow, #6d6c67);
+font-family: Poppins;
+font-size: 6rem;
+font-style: normal;
+font-weight: 800;
+line-height: 116px; /* 116% */
+}
+.about-title p{
+  color: var(--Dark-Blue, #03045E);
+font-family: Poppins;
+font-size: 1.5em;
+font-style: normal;
+font-weight: 400;
+line-height: 44px; /* 183.333% */
+}
