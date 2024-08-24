@@ -382,3 +382,68 @@ font-weight: 400;
 line-height: 44px; /* 183.333% */
 padding: 4%;
 }
+
+/* my project section */
+/* New class for project section */
+/* Project section styling */
+.projects-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  background-color: #f0f0f0;
+}
+
+/* Card styling */
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/* Image styling */
+.card-image {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+  height: 150px; /* Adjust the height as needed */
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Title styling */
+h3 {
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Description styling */
+p {
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
