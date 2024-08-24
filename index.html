@@ -6,8 +6,137 @@
     <title>Mazid F. Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/6aa1caad20.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <nav>
+        <div class="wrapper">
+          <div class="logo"><a href="#">Logo</a></div>
+          <input type="radio" name="slider" id="menu-btn">
+          <input type="radio" name="slider" id="close-btn">
+          <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+              <a href="#" class="desktop-item">Dropdown Menu</a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+              <ul class="drop-menu">
+                <li><a href="#">Drop menu 1</a></li>
+                <li><a href="#">Drop menu 2</a></li>
+                <li><a href="#">Drop menu 3</a></li>
+                <li><a href="#">Drop menu 4</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">Mega Menu</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Mega Menu</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <img src="https://fadzrinmadu.github.io/hosted-assets/responsive-mega-menu-and-dropdown-menu-using-only-html-and-css/img.jpg" alt="">
+                  </div>
+                  <div class="row">
+                    <header>Design Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Graphics</a></li>
+                      <li><a href="#">Vectors</a></li>
+                      <li><a href="#">Business cards</a></li>
+                      <li><a href="#">Custom logo</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Email Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Personal Email</a></li>
+                      <li><a href="#">Business Email</a></li>
+                      <li><a href="#">Mobile Email</a></li>
+                      <li><a href="#">Web Marketing</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Security services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Site Seal</a></li>
+                      <li><a href="#">VPS Hosting</a></li>
+                      <li><a href="#">Privacy Seal</a></li>
+                      <li><a href="#">Website design</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="#">Feedback</a></li>
+          </ul>
+          <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+      </nav>
+      
+      
+
+      <!-- card section -->
+      <!-- <section class="articles">
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="https://picsum.photos/id/1011/800/450" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>This is some title</h2>
+              <p>
+                Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
+              </p>
+              <a href="#" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article>
+      
+          <div class="article-wrapper">
+            <figure>
+              <img src="https://picsum.photos/id/1005/800/450" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>This is some title</h2>
+              <p>
+                Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
+              </p>
+              <a href="#" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article>
+      
+          <div class="article-wrapper">
+            <figure>
+              <img src="https://picsum.photos/id/103/800/450" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>This is some title</h2>
+              <p>
+                Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
+              </p>
+              <a href="#" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </section> -->
 </body>
 </html>
